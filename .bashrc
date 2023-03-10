@@ -7,7 +7,7 @@ if [ -f ~/.bashrc.original ]; then
 fi
 
 if [ -d ~/lernbash ]; then
-    cd lernbash && git pull
+    cd ~/lernbash && git pull -q
     cd ~
 fi
 
