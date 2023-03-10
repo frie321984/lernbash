@@ -1,3 +1,5 @@
+alias fertig='~/lernbash/lvl01.ende.sh'
+
 cat << EOF
 ------------------
  Lernbash Level 1
@@ -6,15 +8,14 @@ cat << EOF
 Hurra! Du hast es ins erste Level geschafft! 
 Das ist großartig.
 
-Aber wo sind wir eigentlich?
+In jedem Level bekommst du eine Aufgabe.
 
-Gib mal diese Befehle ein um dich umzusehen:
+Wenn du diese Aufgabe geschafft hast, kannst du 
+das Level immer mit dem Befehl `fertig` beenden.
 
-pwd sagt dir in welchem ordner du gerade bist
-ls zeigt dir alle dateien und ordner die hier liegen.
+Probiere es gleich mal aus.
 
-Wenn du dich fertig umgesehen hast, beende das level mit diesem Befehl:
+Tippe diesen Befehl ein:
 
-lvl1e
-
+fertig
 EOF
