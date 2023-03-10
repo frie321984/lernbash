@@ -10,10 +10,10 @@ Aber wo sind wir eigentlich?
 
 Gib mal diese Befehle ein um dich umzusehen:
 
-pwd
-ls
+pwd sagt dir in welchem ordner du gerade bist
+ls zeigt dir alle dateien und ordner die hier liegen.
 
-Wenn du soweit bist, beende das level mit
+Wenn du dich fertig umgesehen hast, beende das level mit diesem Befehl:
 
 lvl1e
 
