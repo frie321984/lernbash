@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 cp ~/lernbash/lvl02.ende.sh ~/.fertig
 
 cat << EOF

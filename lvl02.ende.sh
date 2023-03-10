@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 rm -f ~/.fertig
 
 cat << EOF
