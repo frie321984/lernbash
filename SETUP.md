@@ -6,11 +6,19 @@ Passwort eingeben usw.
 
 
 > su - lernbash
-> lernbash:~$ mkdir .ssh && chmod 700 .ssh
-> lernbash:~$ ssh-keygen
-> lernbash:~$
-cat ~/.ssh/id_rsa.pub | ssh git@raspi.fritz.box 'cat >> .ssh/authorized_keys'
+jetzt als lernbash:~$ 
+> mkdir .ssh && chmod 700 .ssh
+> ssh-keygen
+> cat ~/.ssh/id_rsa.pub | ssh git@cloudia.fritz.box 'cat >> .ssh/authorized_keys'
+> git clone git@cloudia.fritz.box:/home/git/lernbash.git
 
-> lernbash:~$ git clone git@raspi.fritz.box:/home/git/lernbash.git . 
-> lernbash:~$ 
+Jetzt hast du dieses repo in deinem testuser.
 
+# Auto-Setup-Script-Inhalt
+
+mv -i ~/.bashrc ~/.bashrc.original
+ln -s ~/lernbash/.bashrc ~/.bashrc
+
+## TODOs
+- Setupscript für alles weitere...
+- Symlink für .bashrc
