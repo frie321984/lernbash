@@ -6,14 +6,20 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
-if [ -d ~/lernbash ]; then
-    cd ~/lernbash && git pull -q
-    cd ~
+if [ -f ~/.lernbash-features/auto_update ]; then
+    echo 'Lernbash AUTO_UPDATE = ON'
+    if [ -d ~/lernbash ]; then
+        cd ~/lernbash && git pull -q
+        cd ~
+    fi
 fi
 
 alias c='echo "c geändert"'
 
+
 cat << EOF
+
+------------------
 Hallo bei Lernbash
 ------------------
 
