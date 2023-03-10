@@ -18,5 +18,6 @@ fi
 
 alias lernbash='~/lernbash/hilfe.sh'
 alias lvl1='~/lernbash/lvl01.sh'
+alias lvl1e='~/lernbash/lvl01.ende.sh'
 
 ~/lernbash/intro.sh
