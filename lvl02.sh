@@ -1,5 +1,5 @@
 #!/bin/bash
-export lernbashfertig='~/lernbash/lvl02.ende.sh'
+cp ~/lernbash/lvl02.ende.sh ~/.fertig
 
 cat << EOF
 ------------------

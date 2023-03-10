@@ -1,3 +1,5 @@
+rm -f ~/.fertig
+
 cat << EOF
 🎉 Ja genau so!
 

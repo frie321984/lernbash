@@ -1,2 +1,7 @@
 #!/bin/bash
-echo $lernbashfertig
+
+if [ -f ~/.fertig ]; then
+    ~/.fertig
+else
+    ~/lernbash/geht-nicht.sh
+fi

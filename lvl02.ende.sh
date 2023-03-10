@@ -1,5 +1,5 @@
 #!/bin/bash
-export lernbashfertig='~/lernbash/geht-nicht.sh'
+rm -f ~/.fertig
 
 cat << EOF
 ------------------
