@@ -1,3 +1,5 @@
+#!/bin/bash
+
 alias fertig='~/lernbash/lvl01.ende.sh'
 
 cat << EOF
@@ -11,7 +13,9 @@ Das ist großartig.
 In jedem Level bekommst du eine Aufgabe.
 
 Wenn du diese Aufgabe geschafft hast, kannst du 
-das Level immer mit dem Befehl `fertig` beenden.
+das Level immer mit dem Befehl 
+fertig
+beenden.
 
 Probiere es gleich mal aus.
 
