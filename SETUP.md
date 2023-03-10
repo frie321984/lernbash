@@ -1,24 +1,26 @@
 # SETUP
 
-> sudo adduser lernbash
+> lehrerin@rechner:~$ sudo adduser foo
 
 Passwort eingeben usw.
 
+> lehrerin@rechner:~$ su - foo
 
-> su - lernbash
-jetzt als lernbash:~$ 
-> mkdir .ssh && chmod 700 .ssh
-> ssh-keygen
-> cat ~/.ssh/id_rsa.pub | ssh git@cloudia.fritz.box 'cat >> .ssh/authorized_keys'
-> git clone git@cloudia.fritz.box:/home/git/lernbash.git
 
-Jetzt hast du dieses repo in deinem testuser.
+jetzt als foo user alles in clone.sh ausführen!
 
-# Auto-Setup-Script-Inhalt
+dann ist das repo geclont in ~/lernbash
 
-mv -i ~/.bashrc ~/.bashrc.original
-ln -s ~/lernbash/.bashrc ~/.bashrc
+Jetzt kann die installation losgehen:
 
-## TODOs
-- Setupscript für alles weitere...
-- Symlink für .bashrc
+> foo@rechner:~$ ~/lernbash/install.sh
+
+Ausloggen
+> foo@rechner:~$ exit
+
+Nach dem Neu Einloggen sollte nun die Hallowelt nachricht von lernbash da sein:
+
+> lehrerin@rechner:~$ su - foo
+> Passwort:
+> Hallo bei Lernbash
+> foo@rechner:~$ _
