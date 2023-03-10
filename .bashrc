@@ -6,6 +6,11 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
+if [ -d ~/lernbash ]; then
+    cd lernbash && git pull
+    cd ~
+fi
+
 alias c='echo "c aufgerufen"'
 
 cat << EOF
