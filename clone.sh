@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir .ssh && chmod 700 .ssh
 ssh-keygen
 cat ~/.ssh/id_rsa.pub | ssh git@cloudia.fritz.box 'cat >> .ssh/authorized_keys'

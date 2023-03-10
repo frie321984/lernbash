@@ -7,16 +7,15 @@ cat << EOF
 ------------------
 Okay, du weißt jetzt wie du ins nächste Level kommst.
 
-Aber sag mal...
+Aber... wo sind wir hier eigentlich?
 
-wo sind wir hier eigentlich?
+Schauen wir uns mal um. Dazu gibt es diese Befehle:
 
-Schauen wir uns mal um.
+pwd - sagt dir in welchem Ordner wir gerade sind
+ls  - zeigt dir alle Dateien und Ordner die hier liegen
 
-pwd - sagt dir in welchem ordner du gerade bist
-ls  - zeigt dir alle dateien und ordner die hier liegen.
-
-Wenn du das gemacht hast, beende
-das Level wieder mit dem Befehl fertig.
+Wenn du beide Befehle ausprobiert hast,
+beende das Level wieder mit dem Befehl
+fertig
 
 EOF
