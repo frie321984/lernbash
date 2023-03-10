@@ -6,13 +6,15 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
+alias lbu='cd ~/lernbash && git pull; cd ~'
+
 if [ -f ~/.lernbash-features/auto_update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
     if [ -d ~/lernbash ]; then
-        cd ~/lernbash && git pull
-        cd ~
+        lbu
     fi
 fi
+
 
 alias lvl1='~/lernbash/lvl01.sh'
 
