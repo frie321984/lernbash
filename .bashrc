@@ -6,7 +6,7 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
-echo << EOF
+cat << EOF
 Hallo bei Lernbash
 ------------------
 
