@@ -1,4 +1,5 @@
-alias fertig='~/lernbash/geht-nicht.sh'
+#!/bin/bash
+export lernbashfertig='~/lernbash/geht-nicht.sh'
 
 cat << EOF
 ------------------
