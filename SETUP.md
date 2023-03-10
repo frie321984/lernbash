@@ -1,6 +1,6 @@
 # SETUP
 
-> sudo useradd lernbash
+> sudo adduser lernbash
 
 Passwort eingeben usw.
 
