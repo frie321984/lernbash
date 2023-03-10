@@ -9,7 +9,7 @@ fi
 if [ -f ~/.lernbash-features/auto_update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
     if [ -d ~/lernbash ]; then
-        cd ~/lernbash && git pull -q
+        cd ~/lernbash && git pull
         cd ~
     fi
 fi
