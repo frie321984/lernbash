@@ -11,7 +11,7 @@ if [ -d ~/lernbash ]; then
     cd ~
 fi
 
-alias c='echo "c aufgerufen"'
+alias c='echo "c geändert"'
 
 cat << EOF
 Hallo bei Lernbash
