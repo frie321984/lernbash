@@ -1,8 +1,20 @@
 cat << EOF
---------------
-Level 1
---------------
+------------------
+ Lernbash Level 1
+------------------
 
-... ist noch in Arbeit.
+Hurra! Du hast es ins erste Level geschafft! 
+Das ist großartig.
+
+Aber wo sind wir eigentlich?
+
+Gib mal diese Befehle ein um dich umzusehen:
+
+pwd
+ls
+
+Wenn du soweit bist, beende das level mit
+
+lvl1e
 
 EOF
