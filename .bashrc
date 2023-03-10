@@ -14,20 +14,6 @@ if [ -f ~/.lernbash-features/auto_update ]; then
     fi
 fi
 
-alias c='echo "c geändert"'
+alias lvl1='~/lernbash/lvl01.sh'
 
-
-cat << EOF
-
-------------------
-Hallo bei Lernbash
-------------------
-
-Ich bring dir programmieren bei. Hast du Lust?
-Als erstes schauen wir mal welche Dateien es
-hier so gibt.
-
-Tippe dafür diesen Befehl ein:
-ls
-
-EOF
+lvl1
