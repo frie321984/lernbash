@@ -30,6 +30,10 @@ foo ist immer der Account mit dem die Schülerin gemeint ist.
 
 Wenn du als user foo lernbash aktualisieren möchtest, kannst du das mit `lbu` tun.
 
+Im Ordner `.lb/features/` kannst du verschiedene Entwickleroptionen einschalten.
+
+Welche das sind, findest du in `.bashrc`.
+
 Hier ist ein schönes Tutorial mit den wichtigsten ersten Befehlen das ich als Grundlage verwende:
 https://ryanstutorials.net/linuxtutorial/navigation.php#introduction
 

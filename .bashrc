@@ -8,10 +8,16 @@ fi
 
 alias lbu='cd ~/lernbash && git pull; cd ~'
 
-if [ -f ~/.lernbash-features/auto_update ]; then
+if [ -f ~/.lb/features/auto-update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
     if [ -d ~/lernbash ]; then
         lbu
+    fi
+fi
+if [ -f ~/.lb/features/reset-fertig-on-login ]; then
+    echo 'Lernbash reset .lb/fertig beim login'
+    if [ -d ~/.lb/fertig ]; then
+        rm ~/.lb/fertig/*
     fi
 fi
 
@@ -22,5 +28,4 @@ alias lvl1='~/lernbash/lvl01.sh'
 alias lvl2='~/lernbash/lvl02.sh'
 
 # Startbildschirm anzeigen
-clear
 ~/lernbash/intro.sh
