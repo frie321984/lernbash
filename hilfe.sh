@@ -1,16 +1,22 @@
 #!/bin/bash
+
+cat ~/lernbash/banner
+
 cat << EOF
----------------
-Lernbash Hilfe
----------------
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██░██░██▄██░██░▄▄█░▄▄██
+██░▄▄░██░▄█░██░▄██░▄▄██
+██░██░█▄▄▄█▄▄█▄███▄▄▄██
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
 Oh du steckst fest? Vielleicht hilft dir das weiter:
 
-Starte das erste Kapitel:
+Diese Kapitel kannst du starten:
 
 lvl1
+lvl2
 
-Zeige diese Hilfe nochmal an:
+Zeige diese Hilfe nochmal an mit:
 
 lernbash
 

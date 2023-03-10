@@ -2,9 +2,9 @@
 cp ~/lernbash/lvl02.ende.sh ~/.fertig
 
 cat << EOF
-------------------
- Lernbash Level 2
-------------------
+ █   ██▀ █ █ ██▀ █     ▀█
+ █▄▄ █▄▄ ▀▄▀ █▄▄ █▄▄   █▄
+
 Okay, du weißt jetzt wie du ins nächste Level kommst.
 
 Aber... wo sind wir hier eigentlich?

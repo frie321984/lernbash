@@ -3,9 +3,8 @@
 cp ~/lernbash/lvl01.ende.sh ~/.fertig
 
 cat << EOF
-------------------
- Lernbash Level 1
-------------------
+ █   ██▀ █ █ ██▀ █     ▄█
+ █▄▄ █▄▄ ▀▄▀ █▄▄ █▄▄    █
 
 Hurra! Du hast es ins erste Level geschafft! 
 Das ist großartig.
