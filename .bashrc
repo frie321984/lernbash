@@ -6,6 +6,8 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
+alias c='echo "c aufgerufen"'
+
 cat << EOF
 Hallo bei Lernbash
 ------------------
