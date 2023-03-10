@@ -16,7 +16,7 @@ if [ -f ~/.lernbash-features/auto_update ]; then
 fi
 
 
-alias lernbash='~/lernbash/intro.sh'
+alias lernbash='~/lernbash/hilfe.sh'
 alias lvl1='~/lernbash/lvl01.sh'
 
 lernbash

@@ -3,9 +3,14 @@ cat << EOF
 Hallo bei Lernbash
 ------------------
 
-Ich bring dir programmieren bei. Hast du Lust?
+Ich bring dir Programmieren bei. Hast du Lust?
 
-Wenn du diese einführung nochmal lesen möchtest. Tippe diesen Befehl:
+Bevor es richtig los geht noch eine Sache.
+Wenn du mal Hilfe brauchst, tippe diesen Befehl ein:
 lernbash
+
+Und jetzt geht's los.
+Starte das erste Level mit diesem Befehl:
+lvl1
 
 EOF
