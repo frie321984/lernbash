@@ -31,14 +31,11 @@ if [ -f ~/.lb/features/reset-fertig-on-login ]; then
 fi
 
 
-# geht noch nicht... 
-# find $HOME/lernbash/level/* -type d -exec basename {} \;
+# erstelle die startdatei für jedes level basierend auf den ordnern in level
 for dir in $HOME/lernbash/level/[0-9]*/; do
     level=$(basename "$dir")
-    echo $level
     cat > "$HOME/.local/bin/lvl$level" << EOF
 #!/bin/bash
-echo "Hier kommt $level"
 . ~/lernbash/level.start.sh $level
 EOF
 chmod u+x "$HOME/.local/bin/lvl$level"
