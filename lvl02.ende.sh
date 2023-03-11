@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-rm -f ~/.fertig
-touch ~/.lb/fertig/lvl02
 
 read -p "Hast du verstanden was ls macht? Antworte mit (Ja|Nein): " verstanden
 
 if [ $verstanden == "J" ]; then
+rm -f ~/.fertig
+touch ~/.lb/fertig/lvl02
 echo "Super! 🎉"
 else
 echo "Okay. Das ist nicht schlimm."
