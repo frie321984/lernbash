@@ -33,10 +33,12 @@ fi
 
 # geht noch nicht... 
 # find $HOME/lernbash/level/* -type d -exec basename {} \;
-for dir in $HOME/lernbash/level/*/; do
-    echo "$dir"
+for dir in $HOME/lernbash/level/[0-9]*/; do
     level=$(basename "$dir")
     echo $level
+    cat > $HOME/.local/bin/lvl1 << EOF
+echo "$level"
+EOF
 done
 
 # Startbildschirm anzeigen
