@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo 'Inspiziere ~/.lb/'
 ls -alh ~/.lb/
 
 echo
@@ -11,5 +12,5 @@ fi
 echo
 echo "Geschaffte Level: "
 if [ -d ~/.lb/fertig ]; then
-    ls -alh ~/.lb/fertig | grep ^-
+    ls ~/.lb/fertig
 fi
