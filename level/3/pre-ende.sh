@@ -1,9 +1,6 @@
 #!/bin/bash
 
-if [ -d ~/texte ]; then
-    # aufgabe erfolgreich geschafft!
-    echo "Geschafft!"
-else
+if [ ! -d ~/texte ]; then
     echo "Du hast noch nicht den Ordner texte angelegt."
     echo "Probiere es mal mit:"
     echo
