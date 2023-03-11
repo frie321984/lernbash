@@ -36,8 +36,8 @@ fi
 for dir in $HOME/lernbash/level/[0-9]*/; do
     level=$(basename "$dir")
     echo $level
-    cat > $HOME/.local/bin/lvl1 << EOF
-echo "$level"
+    cat > "$HOME/.local/bin/lvl$level" << EOF
+echo "Hier kommt $level"
 EOF
 done
 
