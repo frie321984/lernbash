@@ -11,8 +11,8 @@ Der Befehl heißt:
 mkdir NAME
 
 Statt NAME kannst du dir einen eigenen Namen
-überlegen. Probiere es mal aus und leg einen
-eigenen Ordner an.
+überlegen. Probiere es mal aus und lege einen
+Ordner namens texte an.
 
 Denk daran: Mit ls kannst du nachschauen
 ob dein Ordner da ist. ;)
