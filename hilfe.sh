@@ -15,7 +15,6 @@ Diese Kapitel kannst du starten:
 
 EOF
 for dir in $(ls -d $HOME/lernbash/level/*); do
-    echo $dir
     lvl=$(basename "$dir")
     echo "lvl$lvl"
 done
