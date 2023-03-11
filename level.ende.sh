@@ -1,6 +1,10 @@
 #!/bin/bash
-echo 'Not implemented yet...'
-cat ~/.lb/current-level
+currentLevel=$(cat "$HOME/.lb/current-level")
 
-#cp -p "$HOME/lernbash/level/$1/pre-ende.sh" ~/.lb/.pre-ende.sh
-#cp -p "$HOME/lernbash/level/$1/ende.txt" ~/.lb/ende.txt
+clear
+rm -f $HOME/.fertig
+touch "$HOME/.lb/fertig/$currentLevel"
+
+# TODO execute pre-ende if exists
+cat "$HOME/lernbash/level/$currentLevel/ende.txt"
+# TODO execute post-ende if exists
