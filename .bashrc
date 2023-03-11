@@ -7,7 +7,7 @@ if [ -f ~/.bashrc.original ]; then
 fi
 
 mkdir -p "$HOME/.local/bin"
-ln -s "$HOME/lernbash/lvl01.sh" "$HOME/.local/bin/lvl01"
+ln -s "$HOME/lernbash/lvl01.sh" "$HOME/.local/bin/lvl1"
 ln -s "$HOME/lernbash/lvl02.sh" "$HOME/.local/bin/lvl2"
 ln -s "$HOME/lernbash/lvl03.sh" "$HOME/.local/bin/lvl3"
 ln -s "$HOME/lernbash/fertig.sh" "$HOME/.local/bin/fertig"
@@ -29,8 +29,6 @@ if [ -f ~/.lb/features/reset-fertig-on-login ]; then
         rm ~/.lb/fertig/*
     fi
 fi
-
-
 
 # Startbildschirm anzeigen
 ~/lernbash/intro.sh
