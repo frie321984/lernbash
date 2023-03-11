@@ -2,12 +2,14 @@
 
 ls -alh ~/.lb/
 
+echo
 echo "gerade aktives Level: "
 if [ -f ~/.lb/current-level ]; then
     cat ~/.lb/current-level
 fi
 
+echo
 echo "Geschaffte Level: "
 if [ -d ~/.lb/fertig ]; then
-    ls -alh ~/.lb/fertig
+    ls -alh ~/.lb/fertig | grep ^-
 fi
