@@ -6,6 +6,11 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
+mkdir -p "$HOME/.local/bin"
+ln -s "$HOME/lernbash/lvl01.sh" "$HOME/.local/bin/lvl01"
+ln -s "$HOME/lernbash/lvl02.sh" "$HOME/.local/bin/lvl2"
+PATH="$HOME/.local/bin:$PATH"
+
 alias lbu='cd ~/lernbash && git pull; cd ~'
 
 if [ -f ~/.lb/features/auto-update ]; then
@@ -24,8 +29,8 @@ fi
 
 alias lernbash='~/lernbash/hilfe.sh'
 alias fertig='~/lernbash/fertig.sh'
-alias lvl1='~/lernbash/lvl01.sh'
-alias lvl2='~/lernbash/lvl02.sh'
+#alias lvl1='~/lernbash/lvl01.sh'
+#alias lvl2='~/lernbash/lvl02.sh'
 alias lvl3='~/lernbash/lvl03.sh'
 
 # Startbildschirm anzeigen
