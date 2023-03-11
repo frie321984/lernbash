@@ -7,6 +7,7 @@ x Level können durch anlegen eines unterordners in level/[0-9]+ erstellt werden
 - Anleitung für entwicklerinnen was ein level mindestens braucht
 x lb-dbgstate liest aktuellen status des spiels aus
 x es kann checks nach dem level geben die prüfen ob die schülerin das problem gelöst hat (Bsp. lvl 4)
+- bevor ein level starten kann, überprüfen ob vorherige level erfolgreich waren
 - Überall schicke ascii art bilder einfügen
 - mehr emojis!!
 - level festlegen: was soll man wo lernen?
