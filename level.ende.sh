@@ -2,7 +2,10 @@
 currentLevel=$(cat "$HOME/.lb/current-level")
 
 clear
+# todo das mit dem .fertig ist noch zu umständlich und kann
+# jetzt sicher vereinfacht werden.
 rm -f $HOME/.fertig
+rm "$HOME/.lb/current-level"
 touch "$HOME/.lb/fertig/$currentLevel"
 
 # TODO execute pre-ende if exists
