@@ -3,6 +3,12 @@ ToDos
 
 x Nach dem Login einen Startbildschirm zeigen, der erklärt wie's losgeht.
 x Level mit "fertig" beenden
+x Level können durch anlegen eines unterordners in level/[0-9]+ erstellt werden
+- Anleitung für entwicklerinnen was ein level mindestens braucht
+x lb-dbgstate liest aktuellen status des spiels aus
+x es kann checks nach dem level geben die prüfen ob die schülerin das problem gelöst hat (Bsp. lvl 4)
+- Überall schicke ascii art bilder einfügen
+- mehr emojis!!
 - level festlegen: was soll man wo lernen?
 - pro level eine anleitung schreiben
 - interaktiv gestalten: Kinder am Anfang den Namen eintippen lassen und später verwenden?
