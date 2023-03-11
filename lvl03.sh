@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+cp -p ~/lernbash/lvl03.ende.sh ~/.fertig
 
 cat << EOF
  █   ██▀ █ █ ██▀ █     ▀██
@@ -25,23 +26,4 @@ Wenn du soweit bist, beende das Level
 wieder mit dem Befehl
 fertig
 
-EOF
-
-cat >> ~/.fertig << EOF
-#!/bin/bash
-clear
-
-rm -f ~/.fertig
-touch ~/.lb/fertig/lvl03
-
-ls
-
-cat << EC
-
-Du hast Level 3 geschafft.
-
-Das ist vorerst das Ende von Lernbash.
-Ich hoffe es hat dir Spaß gemacht.
-Vielen Dank für's Mitmachen. :)
-EC
 EOF
