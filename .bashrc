@@ -34,7 +34,7 @@ fi
 # geht noch nicht... 
 # find $HOME/lernbash/level/* -type d -exec basename {} \;
 
-alias lvl1='~/lernbash/level.sh 1'
+alias lvl1='~/lernbash/level.start.sh 1'
 
 # Startbildschirm anzeigen
 ~/lernbash/intro.sh
