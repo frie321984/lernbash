@@ -33,7 +33,8 @@ fi
 
 # geht noch nicht... 
 # find $HOME/lernbash/level/* -type d -exec basename {} \;
-for dir in $HOME/lernbash/level/*/ do
+for dir in $HOME/lernbash/level/*/; do
+    echo "$dir"
     level=$(basename "$dir")
     echo $level
 done
