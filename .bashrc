@@ -7,7 +7,7 @@ if [ -f ~/.bashrc.original ]; then
 fi
 
 mkdir -p "$HOME/.local/bin"
-ln -s "$HOME/lernbash/fertig.sh" "$HOME/.local/bin/fertig"
+ln -s "$HOME/lernbash/level.ende.sh" "$HOME/.local/bin/fertig"
 ln -s "$HOME/lernbash/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
 ln -s "$HOME/lernbash/hilfe.sh" "$HOME/.local/bin/hilfe"
 

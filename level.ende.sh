@@ -1,5 +1,11 @@
 #!/bin/bash
-currentLevel=$(cat "$HOME/.lb/current-level")
+if [ -f "$HOME/.lb/current-level" ]; then
+    currentLevel=$(cat "$HOME/.lb/current-level")
+else
+    clear
+    ~/lernbash/geht-nicht.sh
+    exit 0
+fi
 
 clear
 # todo das mit dem .fertig ist noch zu umständlich und kann
