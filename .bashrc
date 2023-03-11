@@ -33,6 +33,10 @@ fi
 
 # geht noch nicht... 
 # find $HOME/lernbash/level/* -type d -exec basename {} \;
+for dir in $HOME/lernbash/level/*/ do
+    level=$(basename "$dir")
+    echo $level
+done
 
 # Startbildschirm anzeigen
 ~/lernbash/intro.sh
