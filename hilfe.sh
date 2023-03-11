@@ -14,7 +14,7 @@ Oh du steckst fest? Vielleicht hilft dir das weiter:
 Diese Kapitel kannst du starten:
 
 EOF
-for dir in $(ls $HOME/lernbash/level/*/); do
+for dir in $(ls -d $HOME/lernbash/level/*); do
     echo $dir
     lvl=$(basename "$dir")
     echo "lvl$lvl"
