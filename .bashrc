@@ -13,7 +13,7 @@ ln -s "$HOME/lernbash/hilfe.sh" "$HOME/.local/bin/hilfe"
 
 PATH="$HOME/.local/bin:$PATH"
 
-alias lbu='cd ~/lernbash && git pull; cd ~'
+alias lbu='cd ~/lernbash && git pull; cd ~; . ~/.bashrc'
 
 if [ -f ~/.lb/features/auto-update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
