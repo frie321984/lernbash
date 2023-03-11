@@ -37,8 +37,11 @@ for dir in $HOME/lernbash/level/[0-9]*/; do
     level=$(basename "$dir")
     echo $level
     cat > "$HOME/.local/bin/lvl$level" << EOF
+#!/bin/bash
 echo "Hier kommt $level"
+. ~/lernbash/level.start.sh $level
 EOF
+chmod u+x "$HOME/.local/bin/lvl$level"
 done
 
 # Startbildschirm anzeigen
