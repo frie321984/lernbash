@@ -7,10 +7,8 @@ if [ -f ~/.bashrc.original ]; then
 fi
 
 mkdir -p "$HOME/.local/bin"
-ln -s "$HOME/lernbash/lvl01.sh" "$HOME/.local/bin/lvl1"
-ln -s "$HOME/lernbash/lvl02.sh" "$HOME/.local/bin/lvl2"
-ln -s "$HOME/lernbash/lvl03.sh" "$HOME/.local/bin/lvl3"
 ln -s "$HOME/lernbash/fertig.sh" "$HOME/.local/bin/fertig"
+ln -s "$HOME/lernbash/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
 ln -s "$HOME/lernbash/hilfe.sh" "$HOME/.local/bin/hilfe"
 
 PATH="$HOME/.local/bin:$PATH"
