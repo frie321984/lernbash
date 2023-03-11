@@ -26,6 +26,7 @@ alias lernbash='~/lernbash/hilfe.sh'
 alias fertig='~/lernbash/fertig.sh'
 alias lvl1='~/lernbash/lvl01.sh'
 alias lvl2='~/lernbash/lvl02.sh'
+alias lvl3='~/lernbash/lvl03.sh'
 
 # Startbildschirm anzeigen
 ~/lernbash/intro.sh
