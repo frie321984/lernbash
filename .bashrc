@@ -2,9 +2,11 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-if [ -f ~/.bashrc.original ]; then
-    . ~/.bashrc.original
-fi
+# TODO wenn mehrmals installiert wird und das original verloren 
+# geht entsteht hier eine lustige endlosschleife.... args
+#if [ -f ~/.bashrc.original ]; then
+    # . ~/.bashrc.original
+#fi
 
 if [ -f ~/.lernbashpath ]; then
     export lernbashpath=$(<$HOME/.lernbashpath)

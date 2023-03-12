@@ -9,5 +9,7 @@ SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo "scriptpath: $SCRIPTPATH"
 echo "$SCRIPTPATH" > "$HOME/.lernbashpath"
 mkdir -p ~/.lb/fertig
+# Das darf nur kopiert werden wenn das original nicht von lernbash ist...
+# sonst gibts ne endlosschleife xD
 mv -i ~/.bashrc ~/.bashrc.original
 ln -s "$SCRIPTPATH/.bashrc" ~/.bashrc
