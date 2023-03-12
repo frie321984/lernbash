@@ -1,4 +1,3 @@
-#!/bin/bash
 su - foo
 mkdir .ssh && chmod 700 .ssh
 ssh-keygen
