@@ -1,0 +1,7 @@
+Level 5
+
+Wunderbar, jetzt wird es Zeit was zu schreiben.
+
+echo "Hallo" >> geschichte
+
+Schau danach mit ls was passiert ist.
