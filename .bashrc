@@ -13,6 +13,12 @@ else
 fi
 exit
 
+if [ ! -d $lernbashpath ]; then
+    echo "Deine Installation von lernbash ist kaputt..."
+    echo "Ich finde den Installationsort nicht."
+    echo "Bitte deine Lehrerin um Rat."
+else
+# installpfad ist da. kann losgehen
 mkdir -p "$HOME/.local/bin"
 ln -sf "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
 ln -sf "$lernbashpath/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
@@ -48,3 +54,5 @@ done
 
 # Startbildschirm anzeigen
 $lernbashpath/intro.sh
+
+fi
