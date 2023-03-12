@@ -12,9 +12,9 @@ if [ -f ~/.lernbashpath ]; then
 fi
 
 mkdir -p "$HOME/.local/bin"
-ln -s "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
-ln -s "$lernbashpath/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
-ln -s "$lernbashpath/hilfe.sh" "$HOME/.local/bin/lernbash"
+ln -sf "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
+ln -sf "$lernbashpath/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
+ln -sf "$lernbashpath/hilfe.sh" "$HOME/.local/bin/lernbash"
 
 PATH="$HOME/.local/bin:$PATH"
 
