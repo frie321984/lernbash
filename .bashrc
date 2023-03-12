@@ -6,6 +6,11 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
+export lernbashpath="~/lernbash/"
+if [ -f ~/.lernbashpath ]; then
+    export lernbashpath="$(cat ~/.lernbashpath)"
+fi
+
 mkdir -p "$HOME/.local/bin"
 ln -s "$HOME/lernbash/level.ende.sh" "$HOME/.local/bin/fertig"
 ln -s "$HOME/lernbash/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
