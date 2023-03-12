@@ -13,8 +13,10 @@ x es kann checks nach dem level geben die prüfen ob die schülerin das problem 
 - level festlegen: was soll man wo lernen?
 - pro level eine anleitung schreiben
 - interaktiv gestalten: Kinder am Anfang den Namen eintippen lassen und später verwenden?
-- Hardcodierte Pfade zu lernbash aus den Scripts entfernen...
+x Hardcodierte Pfade zu lernbash aus den Scripts entfernen...
 - Feature Flag in der Hilfe und im Intro mit ausgeben, damit entwicklerinnen wissen was sie gerade eingestellt haben ^^
+x Lernbash kann jetzt in einem beliebigen verzeichnis installiert werden.
+x install script und .bashrc sind jetzt resilienter ☺️
 
 Offene Punkte
 --------------
