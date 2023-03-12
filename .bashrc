@@ -13,6 +13,11 @@ else
 fi
 exit
 
+if [ "$lernbashpath" == "" ]; then
+    echo "Deine Installation von lernbash ist kaputt..."
+    echo "Ich finde den Installationsort nicht."
+    echo "Bitte deine Lehrerin um Rat."
+else
 if [ ! -d $lernbashpath ]; then
     echo "Deine Installation von lernbash ist kaputt..."
     echo "Ich finde den Installationsort nicht."
@@ -55,4 +60,5 @@ done
 # Startbildschirm anzeigen
 $lernbashpath/intro.sh
 
+fi
 fi
