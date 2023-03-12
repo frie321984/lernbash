@@ -2,12 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# TODO wenn mehrmals installiert wird und das original verloren 
-# geht entsteht hier eine lustige endlosschleife.... args
-#if [ -f ~/.bashrc.original ]; then
-    # . ~/.bashrc.original
-#fi
-
 if [ -f ~/.lernbashpath ]; then
     export lernbashpath=$(<$HOME/.lernbashpath)
 else
@@ -25,6 +19,11 @@ if [ ! -d $lernbashpath ]; then
     echo "Ich finde den Installationsort nicht."
     echo "Bitte deine Lehrerin um Rat."
 else
+
+if [ -f $lernbashpath/.bashrc.default ]; then
+     . $lernbashpath/.bashrc.default
+fi
+
 # installpfad ist da. kann losgehen
 mkdir -p "$HOME/.local/bin"
 ln -sf "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
