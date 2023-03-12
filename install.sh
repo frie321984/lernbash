@@ -9,5 +9,5 @@ SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo "scriptpath: $SCRIPTPATH"
 echo "$SCRIPTPATH" > "$HOME/.lernbashpath"
 mkdir -p ~/.lb/fertig
-mv --backup ~/.bashrc ~/.bashrc.original
+mv ~/.bashrc ~/.bashrc.original
 ln -s ~/lernbash/.bashrc ~/.bashrc
