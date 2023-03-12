@@ -6,7 +6,7 @@
 
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
-echo $SCRIPTPATH
+echo "scriptpath: $SCRIPTPATH"
 mkdir -p ~/.lb/fertig
 mv -i ~/.bashrc ~/.bashrc.original
 ln -s ~/lernbash/.bashrc ~/.bashrc
