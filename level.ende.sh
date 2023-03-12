@@ -8,6 +8,18 @@ else
     exit 0
 fi
 
+# Wenn es ein ende script gibt, nimm das und ignoriere alles andere
+if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
+    . "$lernbashpath/level/$currentLevel/ende.sh"
+
+    retVal=$?
+    if [ $retVal -ne 0 ]; then
+        echo "Du kannst das Level leider noch nicht beenden."
+        exit 1
+    fi
+    exit 0
+fi
+
 # execute pre-ende if exists
 if [ -f "$lernbashpath/level/$currentLevel/pre-ende.sh" ]; then
     . "$lernbashpath/level/$currentLevel/pre-ende.sh"
