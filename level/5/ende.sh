@@ -17,8 +17,13 @@ cat << EOF
 Du hast soeben eine Datei angelegt mit dem Dateinamen "geschichte".
 
 Ich lese sie gleich mal durch.
+
+-----------
 EOF
 
 cat ./geschichte
 
+echo "-----------"
+echo 
+echo "Toll!"
 fi
