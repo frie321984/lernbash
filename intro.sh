@@ -1,6 +1,6 @@
 #!/bin/bash
 
-clear
+# clear
 cat ~/lernbash/banner
 
 cat << EOF

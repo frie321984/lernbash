@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+# clear
 if [ -f "$HOME/.lb/current-level" ]; then
     currentLevel=$(cat "$HOME/.lb/current-level")
 else
