@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$(basename ${PWD})" == "texte" ]; then
-    # alles gut. do nothing.
+    echo 
 else
     echo "Du bist noch nicht im texte-Ordner sondern hier..."
     pwd
