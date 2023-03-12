@@ -11,7 +11,6 @@ if [ -f ~/.lernbashpath ]; then
 else
     export lernbashpath="$HOME/lernbash/"
 fi
-exit
 
 if [ "$lernbashpath" == "" ]; then
     echo "Deine Installation von lernbash ist kaputt..."
