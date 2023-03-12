@@ -6,10 +6,12 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
-export lernbashpath="$HOME/lernbash/"
 if [ -f ~/.lernbashpath ]; then
     export lernbashpath="$(cat $HOME/.lernbashpath)"
+else
+    export lernbashpath="$HOME/lernbash/"
 fi
+exit
 
 mkdir -p "$HOME/.local/bin"
 ln -sf "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
@@ -18,7 +20,7 @@ ln -sf "$lernbashpath/hilfe.sh" "$HOME/.local/bin/lernbash"
 
 PATH="$HOME/.local/bin:$PATH"
 
-alias lbu='cd ~/lernbash && git pull; cd ~; . ~/.bashrc'
+alias lbu="cd $lernbashpath && git pull; cd ~; . ~/.bashrc"
 
 if [ -f ~/.lb/features/auto-update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
