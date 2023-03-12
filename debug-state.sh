@@ -1,5 +1,14 @@
 #!/bin/bash
 
+cat << EOF
+LERNBASH DEBUG INFORMATIONEN
+
+EOF
+
+echo "Installationsort: [$lernbashpath]"
+
+echo "Ort für Spielinformationen: [~/.lb]"
+
 echo 'Inspiziere ~/.lb/'
 ls -alh ~/.lb/
 
