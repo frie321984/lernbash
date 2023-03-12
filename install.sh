@@ -10,4 +10,4 @@ echo "scriptpath: $SCRIPTPATH"
 echo "$SCRIPTPATH" > "$HOME/.lernbashpath"
 mkdir -p ~/.lb/fertig
 mv ~/.bashrc ~/.bashrc.original
-ln -s ~/lernbash/.bashrc ~/.bashrc
+ln -s "$SCRIPTPATH/.bashrc" ~/.bashrc
