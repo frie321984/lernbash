@@ -17,6 +17,10 @@ if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
         echo "Du kannst das Level leider noch nicht beenden."
         exit 1
     fi
+
+    rm -f $HOME/.fertig
+    rm "$HOME/.lb/current-level"
+    touch "$HOME/.lb/fertig/$currentLevel"
     exit 0
 fi
 
