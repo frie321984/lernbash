@@ -1,7 +1,4 @@
 Level 4
 
-Cool, du hast jetzt einen Ordner für die texte,
-die du später schreiben wirst.
-
 Um in deinen neuen Ordner zu wechseln, verwende
 den Befehl cd texte
