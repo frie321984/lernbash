@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # clear
-cat ~/lernbash/banner
+cat $lernbashpath/banner
 
 cat << EOF
 Ich bring dir Programmieren bei. Hast du Lust?

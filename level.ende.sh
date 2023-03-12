@@ -4,13 +4,13 @@ if [ -f "$HOME/.lb/current-level" ]; then
     currentLevel=$(cat "$HOME/.lb/current-level")
 else
     # es gibt gerade kein aktives level
-    ~/lernbash/geht-nicht.sh
+    $lernbashpath/geht-nicht.sh
     exit 0
 fi
 
 # execute pre-ende if exists
-if [ -f "$HOME/lernbash/level/$currentLevel/pre-ende.sh" ]; then
-    . "$HOME/lernbash/level/$currentLevel/pre-ende.sh"
+if [ -f "$lernbashpath/level/$currentLevel/pre-ende.sh" ]; then
+    . "$lernbashpath/level/$currentLevel/pre-ende.sh"
 
     retVal=$?
     if [ $retVal -ne 0 ]; then
@@ -23,8 +23,8 @@ rm -f $HOME/.fertig
 rm "$HOME/.lb/current-level"
 touch "$HOME/.lb/fertig/$currentLevel"
 
-if [ -f "$HOME/lernbash/level/$currentLevel/ende.txt" ]; then
-    cat "$HOME/lernbash/level/$currentLevel/ende.txt"
+if [ -f "$lernbashpath/level/$currentLevel/ende.txt" ]; then
+    cat "$lernbashpath/level/$currentLevel/ende.txt"
 else
     echo "Level $currentLevel ist leider kaputt. Konnte ende.txt nicht finden."
 fi

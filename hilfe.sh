@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ~/lernbash/banner
+cat $lernbashpath/banner
 
 cat << EOF
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -14,7 +14,7 @@ Oh du steckst fest? Vielleicht hilft dir das weiter:
 Diese Kapitel kannst du starten:
 
 EOF
-for dir in $(ls -d $HOME/lernbash/level/*); do
+for dir in $(ls -d $lernbashpath/level/*); do
     lvl=$(basename "$dir")
     echo "lvl$lvl"
 done

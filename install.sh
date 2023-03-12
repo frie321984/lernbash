@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Initialisiere einen leeren Userordner in dem 
-# schon ~/lernbash/ geklont wurde wie in SETUP.md
-# beschrieben.
+# Installiere einen leeren Userordner in dem 
+# schon lernbash geklont wurde (wie in SETUP.md
+# beschrieben).
 
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 

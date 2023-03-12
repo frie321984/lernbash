@@ -9,6 +9,7 @@ fi
 if [ -f ~/.lernbashpath ]; then
     export lernbashpath=$(<$HOME/.lernbashpath)
 else
+    # default ordner
     export lernbashpath="$HOME/lernbash/"
 fi
 
