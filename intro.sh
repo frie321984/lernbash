@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clear
+$lernbashpath/clear.sh
 cat $lernbashpath/banner
 
 cat << EOF

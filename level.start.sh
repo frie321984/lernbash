@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# clear
+clear
 echo "$1" > ~/.lb/current-level
 cp -p "$lernbashpath/level.ende.sh" ~/.fertig
 
