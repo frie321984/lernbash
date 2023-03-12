@@ -6,15 +6,15 @@ if [ -f ~/.bashrc.original ]; then
     . ~/.bashrc.original
 fi
 
-export lernbashpath="~/lernbash/"
+export lernbashpath="$HOME/lernbash/"
 if [ -f ~/.lernbashpath ]; then
-    export lernbashpath="$(cat ~/.lernbashpath)"
+    export lernbashpath="$(cat $HOME/.lernbashpath)"
 fi
 
 mkdir -p "$HOME/.local/bin"
-ln -s "$HOME/lernbash/level.ende.sh" "$HOME/.local/bin/fertig"
-ln -s "$HOME/lernbash/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
-ln -s "$HOME/lernbash/hilfe.sh" "$HOME/.local/bin/lernbash"
+ln -s "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
+ln -s "$lernbashpath/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
+ln -s "$lernbashpath/hilfe.sh" "$HOME/.local/bin/lernbash"
 
 PATH="$HOME/.local/bin:$PATH"
 
@@ -35,14 +35,14 @@ fi
 
 
 # erstelle die startdatei für jedes level basierend auf den ordnern in level
-for dir in $HOME/lernbash/level/[0-9]*/; do
+for dir in $lernbashpath/level/[0-9]*/; do
     level=$(basename "$dir")
     cat > "$HOME/.local/bin/lvl$level" << EOF
 #!/bin/bash
-. ~/lernbash/level.start.sh $level
+. $lernbashpath/level.start.sh $level
 EOF
 chmod u+x "$HOME/.local/bin/lvl$level"
 done
 
 # Startbildschirm anzeigen
-~/lernbash/intro.sh
+$lernbashpath/intro.sh
