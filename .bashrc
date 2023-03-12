@@ -7,7 +7,7 @@ if [ -f ~/.bashrc.original ]; then
 fi
 
 if [ -f ~/.lernbashpath ]; then
-    export lernbashpath=$HOME/.lernbashpath
+    export lernbashpath=$(<$HOME/.lernbashpath)
 else
     export lernbashpath="$HOME/lernbash/"
 fi
