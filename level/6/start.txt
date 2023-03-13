@@ -1,0 +1,8 @@
+Level 6
+
+Schreib doch noch ein paar Zeilen in deine Geschichte. 
+
+Du kannst zwischendrin lesen was du geschrieben hast mit dem Befehl cat DATEI.
+
+cat zeigt dir was in einer Datei steht.
+
