@@ -4,7 +4,7 @@
 read -r -p 'Passwort? ' password
 if [ "$password" != "36" ]; then
 cat << EOF
-Das Pwasswort stimmt leider nicht.
+Das Passwort stimmt leider nicht.
 
 Versuch nochmal die Datei mit dem langen Dateinamen zu lesen.
 
