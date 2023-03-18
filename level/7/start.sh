@@ -3,4 +3,4 @@
 
 echo "$lernbashpath"
 
-cp "$lernbashpath/level/7/intro" .
+cp -r "$lernbashpath/level/7/dungeon/*" .
