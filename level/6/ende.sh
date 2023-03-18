@@ -1,29 +1,24 @@
 #!/bin/bash
 
-if [ ! -f ./geschichte ]; then
 
+read -r -p 'Passwort? ' password
+if [ "$password" != "36" ]; then
 cat << EOF
-Es scheint als hättest du noch keine Geschichte geschrieben."
+Das Pwasswort stimmt leider nicht.
 
-Probiere es mal mit:
+Versuch nochmal die Datei mit dem langen Dateinamen zu lesen.
 
-echo "Hallo" >> geschichte
+Tippe
+cat a
+ein. Drücke dann die Tabulatortaste über der Feststalltaste und bestätige mit Enter.
+
 EOF
-exit 1
-
 else
+	cat << EOF
+Super! Du hast Level 6 geschafft!
 
-cat << EOF
-Du hast soeben eine Datei angelegt mit dem Dateinamen "geschichte".
-
-Ich lese sie gleich mal durch.
-
------------
+Nutze weiter fleissig die TAB Taste um schnell Dateien oder Ordner einzutippen.
 EOF
 
-cat ./geschichte
-
-echo "-----------"
-echo 
-echo "Toll!"
+rm ach-du-schande--so-ein-langer-dateiname &2>/dev/null
 fi
