@@ -25,4 +25,6 @@ Damit hast du dieses Level geschafft! Gratuliere.
 Weiter geht's mit lvl6
 EOF
 
+rm zettel &2>/dev/null
+
 fi
