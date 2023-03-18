@@ -1,5 +1,6 @@
 #!/bin/bash
 
-echo "$lernbash"
 
-cp "$lernbash/level/7/intro" .
+echo "$lernbashpath"
+
+cp "$lernbashpath/level/7/intro" .
