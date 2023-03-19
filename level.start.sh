@@ -4,6 +4,10 @@ clear
 echo "$1" > ~/.lb/current-level
 cp -p "$lernbashpath/level.ende.sh" ~/.fertig
 
+echo "-------------"
+echo "| Level $1 |"
+echo "-------------"
+
 if [ -f "$lernbashpath/level/$1/start.sh" ]; then
 
     . "$lernbashpath/level/$1/start.sh"
