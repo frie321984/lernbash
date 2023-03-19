@@ -5,13 +5,23 @@ Super! Du siehst jetzt
 den Anfang der Datei! :)
 
 Du bist jetzt im Programm "less".
-Das erkennst du am Doppelpunkt unten links.
 
 Benutze nunb die Pfeiltasten um 
 zu scrollen.
 
+
+
+
+
+
+Wenn du scrollst siehst du unten link
+einen Doppelpunkt. Der zeigt dir, dass
+du nicht in der shell bist, sondern im
+Programm "less".
+
+Scrolle jetzt noch weiter nach unten.
 Wenn du die ganze Datei gelesen hast,
-beende less indem du den Buchstaben q tippst.
+beende less indem du den Buchstaben q drückst.
 
 
 
