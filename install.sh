@@ -17,4 +17,4 @@ ln -sf "$SCRIPTPATH/.bashrc" ~/.bashrc
 # programme die installiert sein sollten
 tree --version
 cat --version
-pwd --version
+pwd
