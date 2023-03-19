@@ -24,9 +24,11 @@ if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
     rm "$HOME/.lb/current-level"
     touch "$HOME/.lb/fertig/$currentLevel"
     if [ -d "$lernbashpath/level/$nextlvl/" ]; then
+        echo
         echo "Das war Level $currentLevel. Weiter geht's mit"
         echo "lvl$nextlvl"
     else
+        echo
         echo "Das war Level $currentLevel."
         echo "Dies ist vorerst das Ende von Lernbash. Vielen Dank für's Spielen!"
     fi
@@ -57,9 +59,11 @@ else
 fi
 
 if [ -d "$lernbashpath/level/$nextlvl/" ]; then
+    echo
     echo "Das war Level $currentLevel. Weiter geht's mit"
     echo "lvl$nextlvl"
 else
+    echo
     echo "Das war Level $currentLevel."
     echo "Dies ist vorerst das Ende von Lernbash. Vielen Dank für's Spielen!"
 fi
