@@ -8,6 +8,8 @@ else
     exit 0
 fi
 
+let "nextlvl=$currentLevel + 1"
+
 # Wenn es ein ende script gibt, nimm das und ignoriere alles andere
 if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
     . "$lernbashpath/level/$currentLevel/ende.sh"
@@ -21,6 +23,14 @@ if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
     rm -f $HOME/.fertig
     rm "$HOME/.lb/current-level"
     touch "$HOME/.lb/fertig/$currentLevel"
+    if [ -d "$lernbashpath/level/$nextlvl/" ]; then
+        echo "Das war Level $currentLevel. Weiter geht's mit"
+        echo "lvl$nextlvl"
+    else
+        echo "Das war Level $currentLevel."
+        echo "Dies ist vorerst das Ende von Lernbash. Vielen Dank für's Spielen!"
+    fi
+
     exit 0
 fi
 
@@ -45,8 +55,6 @@ else
     echo "Level $currentLevel ist leider kaputt. Konnte ende.txt nicht finden."
     exit 1
 fi
-
-let "nextlvl=$currentLevel + 1"
 
 if [ -d "$lernbashpath/level/$nextlvl/" ]; then
     echo "Das war Level $currentLevel. Weiter geht's mit"
