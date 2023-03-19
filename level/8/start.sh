@@ -6,7 +6,7 @@ den Anfang der Datei! :)
 
 Du bist jetzt im Programm "less".
 
-Benutze nunb die Pfeiltasten um 
+Benutze nun die Pfeiltasten um 
 zu scrollen.
 
 
