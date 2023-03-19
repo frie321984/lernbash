@@ -6,10 +6,12 @@ currentLevel=$1
 (( nextLevel = currentLevel + 1 ))
 (( prevLevel = currentLevel - 1 ))
 
-if [ ! -f "$HOME/.lb/fertig/$prevLevel" ]; then
-	echo "Du hast Level $prevLevel noch nicht abgeschlossen."
-	echo "Schließe das vorherige Level erst ab."
-	exit 1
+if [ "$currentLevel" != "1" ]; then
+	if [ ! -f "$HOME/.lb/fertig/$prevLevel" ]; then
+		echo "Du hast Level $prevLevel noch nicht abgeschlossen."
+		echo "Schließe das vorherige Level erst ab."
+		exit 1
+	fi
 fi
 
 echo "$currentLevel" > "$HOME/.lb/current-level"
