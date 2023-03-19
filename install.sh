@@ -11,3 +11,8 @@ echo "$SCRIPTPATH" > "$HOME/.lernbashpath"
 mkdir -p ~/.lb/fertig
 mv -i ~/.bashrc ~/.bashrc.original
 ln -sf "$SCRIPTPATH/.bashrc" ~/.bashrc
+
+# programme die installiert sein sollten
+tree --version
+cat --version
+pwd --version
