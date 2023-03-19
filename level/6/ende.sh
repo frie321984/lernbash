@@ -1,24 +1,30 @@
 #!/bin/bash
 
-
 read -r -p 'Passwort? ' password
-if [ "$password" != "36" ]; then
+
+if [ "$password" != "42" ]; then
+
 cat << EOF
-Das Passwort stimmt leider nicht.
+Du kommst nicht vorbei.
 
-Versuch nochmal die Datei mit dem langen Dateinamen zu lesen.
+Das war leider das falsche Passwort.
+Lies dir den Zettel nochmal genau durch mit
 
-Tippe
-cat a
-ein. Drücke dann die Tabulatortaste über der Feststalltaste und bestätige mit Enter.
+cat zettel
 
 EOF
+exit 1
+
 else
-	cat << EOF
-Super! Du hast Level 6 geschafft!
 
-Nutze weiter fleissig die TAB Taste um schnell Dateien oder Ordner einzutippen.
+cat << EOF
+Richtig!
+
+Damit hast du dieses Level geschafft! Gratuliere.
+
+Weiter geht's mit lvl6
 EOF
 
-rm ach-du-schande--so-ein-langer-dateiname &2>/dev/null
+rm zettel &2>/dev/null
+
 fi

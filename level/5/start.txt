@@ -1,0 +1,7 @@
+Es gibt zwei besondere Verzeichnisse:
+. ist immer das aktuelle Verzeichnis
+.. ist das Verzeichnis über dem aktuellen.
+
+Um wieder zurück zum übergeordneten Verzeichnis zu kommen, verwende den Befehl
+
+cd ..

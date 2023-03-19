@@ -1,32 +1,21 @@
 #!/bin/bash
 
-cat << EOF > ach-du-schande--so-ein-langer-dateiname
-Bravo! Die Geheimzahl lautet: 36
+cat << EOF > zettel 
+Hallo! Cool dass du mich lesen kannst.
+
+Dafür verrate ich dir eine Geheimzahl: 42
+
+Damit kannst du das Level jetzt beenden. ;)
+
 EOF
 
 cat << EOF
-Level 6
+Level 5
 
-Du kannst jetzt mit cat DATEINAME Dateien lesen.
+*es raschelt leise und ein Papier fällt auf den Boden*
 
-Bei kurzen DATEINAMEN ist es kein Problem
-das zu tippen. Vielleicht hast du schon 
-gemerkt, dass viele Befehle schön kurz sind?
-Das liegt daran, dass wir Computermenschen oft
-faul sind. ;)
+Oh ein Zettel. Du kannst ihn lesen mit 
+dem Befehl cat.
 
-Bei langen Dateinamen kann es aber echt nerven.
-Dafür gibt es den Tabulator.
-
-Probiere es mal aus. Tippe 
-cat a
-und drücke dann die TAB Taste. Das Terminal 
-wird jetzt den Dateinamen vervollständigen.
-Drücke dann Enter um die Datei zu lesen.
+Schau dich hier noch einmal um und lies den Zettel.
 EOF
-
-# TODO 
-# - dateien mit langem namen anlegen 
-# - Tabulator erklären
-# - geheimzahl in einer der langen dateien eintragen
-# - lange dateien am ende löschen
