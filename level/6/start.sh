@@ -10,7 +10,6 @@ Damit kannst du das Level jetzt beenden. ;)
 EOF
 
 cat << EOF
-Level 5
 
 *es raschelt leise und ein Papier fällt auf den Boden*
 

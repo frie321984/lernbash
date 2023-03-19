@@ -5,8 +5,6 @@ Bravo! Die Geheimzahl lautet: 36
 EOF
 
 cat << EOF
-Level 6
-
 Du kannst jetzt mit cat DATEINAME Dateien lesen.
 
 Bei kurzen DATEINAMEN ist es kein Problem

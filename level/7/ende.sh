@@ -15,8 +15,7 @@ ein. Drücke dann die Tabulatortaste über der Feststalltaste und bestätige mit
 EOF
 else
 	cat << EOF
-Super! Du hast Level 6 geschafft!
-
+Super!
 Nutze weiter fleissig die TAB Taste um schnell Dateien oder Ordner einzutippen.
 EOF
 
