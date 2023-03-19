@@ -1,6 +1,3 @@
- █   ██▀ █ █ ██▀ █     ▀██
- █▄▄ █▄▄ ▀▄▀ █▄▄ █▄▄   ▄▄█
-
 Bis jetzt gab es ja noch nicht viel zu
 sehen in unserem Ordner. Zeit das zu ändern.
 
