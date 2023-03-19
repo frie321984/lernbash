@@ -13,6 +13,8 @@ cat a
 ein. Drücke dann die Tabulatortaste über der Feststalltaste und bestätige mit Enter.
 
 EOF
+
+exit 1
 else
 	cat << EOF
 Super!

@@ -12,6 +12,8 @@ Verwende dafür diesen Befehl:
 less sovieltext
 
 EOF
+exit 1
+
 else
 	cat << EOF
 Großartig!
