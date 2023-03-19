@@ -1,2 +1,2 @@
-Cool! Jetzt haben wir einen Ort für 
-die Geschichten die du schreiben wirst.
+Sehr gut! Jetzt weißt du wie du mit
+mkdir Ordner anlegen kannst.

@@ -1,5 +1,2 @@
-
-Super jetzt weißt du wie du dich im aktuellen
-Ordner umschauen kannst! 🎉
-
-Als nächstes fangen wir an Dinge selber zu ändern.
+Super jetzt weißt du wie du dich mit ls
+im aktuellen Ordner umschauen kannst! 🎉

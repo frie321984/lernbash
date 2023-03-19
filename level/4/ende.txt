@@ -1,5 +1,5 @@
 Weißt du noch? Mit pwd kannst du 
 nachschauen wo du bist.
 
-pwd zeigt jetzt dass du im Ordner texte bist.
+pwd zeigt jetzt dass du im Ordner Texte bist.
 Supercool!

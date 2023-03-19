@@ -1,2 +1,2 @@
 Um in deinen neuen Ordner zu wechseln, verwende
-den Befehl cd texte
+den Befehl cd Texte

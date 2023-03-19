@@ -1,7 +1,10 @@
-Es gibt zwei besondere Verzeichnisse:
-. ist immer das aktuelle Verzeichnis
-.. ist das Verzeichnis über dem aktuellen.
+Es gibt zwei besondere Ordner:
+Das aktuelle Verzeichnis wird mit einem Punkt
+beschrieben: . 
+Das Verzeichnis über dem aktuellen Verzeichnis
+wir mit zwei Punkten beschrieben: ..
 
-Um wieder zurück zum übergeordneten Verzeichnis zu kommen, verwende den Befehl
+Um wieder zurück zum übergeordneten Verzeichnis
+zu kommen, verwende den Befehl
 
 cd ..
