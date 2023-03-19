@@ -7,7 +7,7 @@ den Anfang der Datei! :)
 Du bist jetzt im Programm "less".
 Das erkennst du am Doppelpunkt unten links.
 
-Du kannst jetzt die Pfeiltasten benutzen um 
+Benutze nunb die Pfeiltasten um 
 zu scrollen.
 
 Wenn du die ganze Datei gelesen hast,
