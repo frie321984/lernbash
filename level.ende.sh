@@ -43,6 +43,10 @@ if [ -f "$lernbashpath/level/$currentLevel/ende.txt" ]; then
     cat "$lernbashpath/level/$currentLevel/ende.txt"
 else
     echo "Level $currentLevel ist leider kaputt. Konnte ende.txt nicht finden."
+    exit 1
 fi
+
+nextlvl=$currentLevel+1
+echo "Das war Level $currentLevel. Weiter geht's mit lvl$nextlvl"
 
 # TODO execute post-ende if exists
