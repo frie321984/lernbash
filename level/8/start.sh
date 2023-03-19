@@ -23,7 +23,34 @@ beende less indem du den Buchstaben q tippst.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Die Geheimzahl für diese Level lautet: 83
+
+
+
+
+
+
+
+
+
+
 
 
 
