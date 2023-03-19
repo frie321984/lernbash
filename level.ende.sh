@@ -47,6 +47,13 @@ else
 fi
 
 let "nextlvl=$currentLevel + 1"
-echo "Das war Level $currentLevel. Weiter geht's mit lvl$nextlvl"
+
+if [ -d "$lernbashpath/level/$nextlvl/" ]; then
+    echo "Das war Level $currentLevel. Weiter geht's mit"
+    echo "lvl$nextlvl"
+else
+    echo "Das war Level $currentLevel."
+    echo "Dies ist vorerst das Ende von Lernbash. Vielen Dank für's Spielen!"
+fi
 
 # TODO execute post-ende if exists

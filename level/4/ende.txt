@@ -3,5 +3,3 @@ nachschauen wo du bist.
 
 pwd zeigt jetzt dass du im Ordner texte bist.
 Supercool!
-
-Weiter mit lvl5
