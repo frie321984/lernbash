@@ -24,9 +24,3 @@ und drücke dann die TAB Taste. Das Terminal
 wird jetzt den Dateinamen vervollständigen.
 Drücke dann Enter um die Datei zu lesen.
 EOF
-
-# TODO 
-# - dateien mit langem namen anlegen 
-# - Tabulator erklären
-# - geheimzahl in einer der langen dateien eintragen
-# - lange dateien am ende löschen
