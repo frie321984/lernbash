@@ -46,7 +46,7 @@ else
     exit 1
 fi
 
-nextlvl=$currentLevel+1
+nextlvl=$currentLevel + 1
 echo "Das war Level $currentLevel. Weiter geht's mit lvl$nextlvl"
 
 # TODO execute post-ende if exists
