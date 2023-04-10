@@ -14,6 +14,8 @@ Es ist ein interaktives "Programm", dass mit Bordmitteln des Linux-Systems funkt
 
 Für die Einrichtung benötigt die Lehrerin git und idealerweise selber Linux-Kenntnisse wie man z.B. user einrichtet.
 
+`git clone https://gitlab.com/frie321984/lernbash.git`
+
 Die Einrichtung ist genauer in [SETUP.md](SETUP.md) beschrieben.
 
 Ziel von Lernbash

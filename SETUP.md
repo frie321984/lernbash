@@ -7,13 +7,15 @@ Passwort eingeben usw.
 > lehrerin@rechner:~$ su - foo
 
 
-jetzt als foo user alles in clone.sh ausführen!
+jetzt als foo user ausführen:
 
-dann ist das repo geclont in ~/lernbash
+`git clone https://gitlab.com/frie321984/lernbash.git .lernbash`
+
+dann ist das repo geclont in ~/.lernbash
 
 Jetzt kann die installation losgehen:
 
-> foo@rechner:~$ ~/lernbash/install.sh
+> foo@rechner:~$ ~/.lernbash/install.sh
 
 Ausloggen
 > foo@rechner:~$ exit
