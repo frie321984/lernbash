@@ -1,5 +1,10 @@
 # SETUP
 
+WICHTIG: Dieses Programm verändert die `.bashrc` Datei. 
+Es ist nur dafür gedacht in einem Übungsaccount verwendet
+zu werden. **Installiere es nicht in deinem Hauptaccount!** ;)
+
+
 ```
 > lehrerin@rechner:~$ sudo adduser foo
 ```
