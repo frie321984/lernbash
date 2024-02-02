@@ -8,11 +8,12 @@
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
-Lernbash ist ein Projekt mit dem man in einem leeren Userverzeichnis Kindern die Bash näher bringen kann.
+Lernbash ist ein Spiel mit dem man in einem leeren Userverzeichnis Kindern die Bash näher bringen kann.
 
-Es ist ein interaktives "Programm", dass mit Bordmitteln des Linux-Systems funktioniert (bash).
+Es ist ein interaktives Programm, dass mit Bordmitteln des Linux-Systems funktioniert (bash).
 
-Für die Einrichtung benötigt die Lehrerin git und idealerweise selber Linux-Kenntnisse wie man z.B. user einrichtet.
+Für die Einrichtung benötigt die Lehrerin idealerweise selber Linux-Kenntnisse, z.B. wie man 
+podman installiert und laufen lässt.
 
 Installation
 ------------
@@ -22,6 +23,8 @@ Am einfachsten startest du das Programm mit podman:
 ```shell
 podman run -it docker.io/frie321984/lernbash
 ```
+
+Dann kann das Kind / die Schülerin auch schon loslegen. Zum Beenden verwende exit. dann wird  lernbash wieder beendet.
 
 Ziel von Lernbash
 ------------
