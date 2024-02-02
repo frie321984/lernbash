@@ -1,6 +1,7 @@
 ToDos
 --------------
 
+- Lernbash als Podman Container bereitstellen um Installation zu vereinfachen
 x Nach dem Login einen Startbildschirm zeigen, der erklärt wie's losgeht.
 x Level mit "fertig" beenden
 x Level können durch anlegen eines unterordners in level/[0-9]+ erstellt werden
