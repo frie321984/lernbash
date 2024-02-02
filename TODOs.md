@@ -18,9 +18,10 @@ x Hardcodierte Pfade zu lernbash aus den Scripts entfernen...
 x Lernbash kann jetzt in einem beliebigen verzeichnis installiert werden.
 x install script und .bashrc sind jetzt resilienter ☺️
 x Lernbash als Podman Container bereitstellen um Installation zu vereinfachen
-- README überarbeiten und SETUP wegschmeissen - geht jetzt mit podman :)
+x README überarbeiten 
+- SETUP überarbeiten - das ist jetzt nur noch zum entwickeln relevant :)
 - OpenDyslexicMono verlinken
-- Anleitung wie man es verwenden kann
+x Anleitung wie man es verwenden kann
 - Fortschritte außerhalb vom container speichern lassen, damit man nicht jedes mal von vorne anfangen muss wenn der container neu gestartet wird
 
 Offene Punkte

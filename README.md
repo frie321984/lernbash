@@ -17,7 +17,11 @@ Für die Einrichtung benötigt die Lehrerin git und idealerweise selber Linux-Ke
 Installation
 ------------
 
-Die Einrichtung ist genauer in [SETUP.md](SETUP.md) beschrieben.
+Am einfachsten startest du das Programm mit podman:
+
+```shell
+podman run -it docker.io/frie321984/lernbash
+```
 
 Ziel von Lernbash
 ------------
@@ -31,7 +35,9 @@ Eltern oder Lehrerinnen, die sich mit Linux etwas auskennen und Kindern dieses B
 für Entwicklerinnen
 -------------
 
-foo ist immer der Account mit dem die Schülerin gemeint ist.
+Um lernbash weiter zu entwickeln kann eine lokale installation sinnvoll sein - ohne container. Ursprünglich habe ich lernbash komplett ohne container entwickelt. dafür gibt es die SETUP.md Datei. 
+
+foo oder hera ist immer der Account mit dem die Schülerin gemeint ist.
 
 Wenn du als user foo lernbash aktualisieren möchtest, kannst du das mit `lbu` tun.
 
