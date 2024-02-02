@@ -1,7 +1,6 @@
 ToDos
 --------------
 
-- Lernbash als Podman Container bereitstellen um Installation zu vereinfachen
 x Nach dem Login einen Startbildschirm zeigen, der erklärt wie's losgeht.
 x Level mit "fertig" beenden
 x Level können durch anlegen eines unterordners in level/[0-9]+ erstellt werden
@@ -18,6 +17,11 @@ x Hardcodierte Pfade zu lernbash aus den Scripts entfernen...
 - Feature Flag in der Hilfe und im Intro mit ausgeben, damit entwicklerinnen wissen was sie gerade eingestellt haben ^^
 x Lernbash kann jetzt in einem beliebigen verzeichnis installiert werden.
 x install script und .bashrc sind jetzt resilienter ☺️
+x Lernbash als Podman Container bereitstellen um Installation zu vereinfachen
+- README überarbeiten und SETUP wegschmeissen - geht jetzt mit podman :)
+- OpenDyslexicMono verlinken
+- Anleitung wie man es verwenden kann
+- Fortschritte außerhalb vom container speichern lassen, damit man nicht jedes mal von vorne anfangen muss wenn der container neu gestartet wird
 
 Offene Punkte
 --------------
@@ -25,3 +29,9 @@ Offene Punkte
 Wie sichert man bequem die Daten, die das Kind anlegt?
 
 Welche Dinge müssen installiert sein auf dem Rechner damit das alles läuft? git
+
+Docker Push
+--------------
+podman login -u  docker.io/frie321984/lernbash
+podman push UUID docker://docker.io/frie321984/lernbash:latest
+
