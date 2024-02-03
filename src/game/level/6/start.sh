@@ -1,11 +1,18 @@
 #!/bin/bash
 
 cat << EOF > zettel 
-Hallo! Cool dass du mich lesen kannst.
+ / \--------------------------------------------\\
+ \_,|                                            \\
+    |    Hallo! Cool, dass du mich lesen kannst. |
+    |                                            |
+    |    Dafür verrate ich dir eine              |
+    |    Geheimzahl: 42                          |
+    |                                            |
+    |    Merke sie dir gut.                      |
+    |                                            |
+    |  ,-------------------------------------------,
+    \_/___________________________________________/
 
-Dafür verrate ich dir eine Geheimzahl: 42
-
-Merke sie dir gut. 
 Du kannst das Level jetzt beenden mit
 fertig
 EOF
