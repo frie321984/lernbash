@@ -23,6 +23,7 @@ x README überarbeiten
 - OpenDyslexicMono verlinken
 x Anleitung wie man es verwenden kann
 - Fortschritte außerhalb vom container speichern lassen, damit man nicht jedes mal von vorne anfangen muss wenn der container neu gestartet wird
+- https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs
 
 Offene Punkte
 --------------
