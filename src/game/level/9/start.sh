@@ -9,6 +9,25 @@ touch obstgarten/dattel/geheimzahl-ist-5
 cat << EOF
 *es rumpelt und plötzlich erscheint ein obstgarten*
 
+                 ***
+            *  ****###
+         #***%%*#####*****#
+       #****##%%####***#▄**#
+      #***#▄###%####*#*███###
+      **##███###########▀####
+      *####▀####%###%▄####%%%
+       ########%%###███%%%%
+        #%%%%%%%#####▀###
+          #############
+             %%####
+               ####%
+               ####
+               ####
+               ####
+              ######
+            ########
+           ###########
+
 Huch! Was ist denn das? Ein Obstgarten?
 
 Lass uns eine Karte davon anschauen mit dem Befehl 
