@@ -1,6 +1,10 @@
 #!/bin/bash
-
+clear
 cat $lernbashpath/banner
+
+# if [ -f ~/.lb/current-level ]; then
+
+cat ~/.lb/current-level
 
 cat << EOF
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

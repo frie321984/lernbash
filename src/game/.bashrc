@@ -29,6 +29,7 @@ mkdir -p "$HOME/.local/bin"
 ln -sf "$lernbashpath/level.ende.sh" "$HOME/.local/bin/fertig"
 ln -sf "$lernbashpath/debug-state.sh" "$HOME/.local/bin/lb-dbgstate"
 ln -sf "$lernbashpath/hilfe.sh" "$HOME/.local/bin/lernbash"
+ln -sf "$lernbashpath/hilfe.sh" "$HOME/.local/bin/hilfe"
 
 PATH="$HOME/.local/bin:$PATH"
 
