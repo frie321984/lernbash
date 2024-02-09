@@ -1,13 +1,14 @@
 ToDos
 --------------
 
+- CHANGELOG erstellen
 x Nach dem Login einen Startbildschirm zeigen, der erklärt wie's losgeht.
 x Level mit "fertig" beenden
 x Level können durch anlegen eines unterordners in level/[0-9]+ erstellt werden
 - Anleitung für entwicklerinnen was ein level mindestens braucht
 x lb-dbgstate liest aktuellen status des spiels aus
 x es kann checks nach dem level geben die prüfen ob die schülerin das problem gelöst hat (Bsp. lvl 4)
-- bevor ein level starten kann, überprüfen ob vorherige level erfolgreich waren
+x bevor ein level starten kann, überprüfen ob vorherige level erfolgreich waren
 - Überall schicke ascii art bilder einfügen
 - mehr emojis!!
 - level festlegen: was soll man wo lernen?
@@ -28,6 +29,8 @@ X Fortschritte außerhalb vom container speichern lassen, damit man nicht
 - Reload von features usw. während der Laufzeit / zwischen Leveln 
   ermöglichen - damit man im pod on the fly ein und ausschalten kann
 - https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs
+- level 5: vor dem start prüfen ob alles da ist
+x Hilfe zeigt jetzt nur die Level an, die man auch starten kann
 
 Offene Punkte
 --------------
