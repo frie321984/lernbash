@@ -26,6 +26,17 @@ podman run -it docker.io/frie321984/lernbash
 
 Dann kann das Kind / die Schülerin auch schon loslegen. Zum Beenden verwende exit. dann wird  lernbash wieder beendet.
 
+Und so kann der Lernfortschritt auf dem Host-System gespeichert 
+werden. Dazu muss das Verzeichnis /home/hera/.lb auf einen Ordner 
+im Host zeigen. 
+
+Im folgenden Codeschnipsel ist das Host-Verzeichnis /tmp/FOO.
+
+```shell
+sudo chmod -R 777 /tmp/FOO
+podman run -v /tmp/FOO:/home/hera/.lb -it lb
+```
+
 Ziel von Lernbash
 ------------
 Kinder können selber Dateien anlegen, bearbeiten (mit nano) und navigieren auf einer bash Kommandozeile.

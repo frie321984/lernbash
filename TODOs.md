@@ -14,7 +14,8 @@ x es kann checks nach dem level geben die prüfen ob die schülerin das problem 
 - pro level eine anleitung schreiben
 - interaktiv gestalten: Kinder am Anfang den Namen eintippen lassen und später verwenden?
 x Hardcodierte Pfade zu lernbash aus den Scripts entfernen...
-- Feature Flag in der Hilfe und im Intro mit ausgeben, damit entwicklerinnen wissen was sie gerade eingestellt haben ^^
+- Feature Flag in der Hilfe und im Intro mit ausgeben, damit 
+  Entwicklerinnen wissen was sie gerade eingestellt haben ^^
 x Lernbash kann jetzt in einem beliebigen verzeichnis installiert werden.
 x install script und .bashrc sind jetzt resilienter ☺️
 x Lernbash als Podman Container bereitstellen um Installation zu vereinfachen
@@ -22,7 +23,10 @@ x README überarbeiten
 - SETUP überarbeiten - das ist jetzt nur noch zum entwickeln relevant :)
 - OpenDyslexicMono verlinken
 x Anleitung wie man es verwenden kann
-- Fortschritte außerhalb vom container speichern lassen, damit man nicht jedes mal von vorne anfangen muss wenn der container neu gestartet wird
+X Fortschritte außerhalb vom container speichern lassen, damit man nicht 
+  jedes mal von vorne anfangen muss wenn der container neu gestartet wird
+- Reload von features usw. während der Laufzeit / zwischen Leveln 
+  ermöglichen - damit man im pod on the fly ein und ausschalten kann
 - https://www.eddymens.com/blog/creating-a-browser-based-interactive-terminal-using-xtermjs-and-nodejs
 
 Offene Punkte

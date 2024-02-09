@@ -40,6 +40,14 @@ if [ -f ~/.lb/features/auto-update ]; then
         lbu
     fi
 fi
+
+
+if [ ! -d ~/lernbash ]; then
+    echo 'missing .lb dir'
+    mkdir -p .lb/features
+    mkdir -p .lb/fertig
+fi
+
 if [ -f ~/.lb/features/reset-fertig-on-login ]; then
     echo 'Lernbash reset .lb/fertig beim login'
     if [ -d ~/.lb/fertig ]; then
