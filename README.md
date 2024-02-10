@@ -15,6 +15,15 @@ Es ist ein interaktives Programm, dass mit Bordmitteln des Linux-Systems funktio
 Für die Einrichtung benötigt die Lehrerin idealerweise selber Linux-Kenntnisse, z.B. wie man 
 podman installiert und laufen lässt.
 
+Ziel von Lernbash
+------------
+Kinder können selber Dateien anlegen, bearbeiten (mit nano) und navigieren auf einer bash Kommandozeile.
+
+Zielgruppe
+------------
+Kinder die Lesen und Schreiben können und mit einer Computertastatur vertraut sind.
+Eltern oder Lehrerinnen, die sich mit Linux etwas auskennen und Kindern dieses Betriebssystem näher bringen wollen.
+
 Installation
 ------------
 
@@ -36,15 +45,6 @@ Im folgenden Codeschnipsel ist das Host-Verzeichnis /tmp/FOO.
 sudo chmod -R 777 /tmp/FOO
 podman run -v /tmp/FOO:/home/hera/.lb -it lb
 ```
-
-Ziel von Lernbash
-------------
-Kinder können selber Dateien anlegen, bearbeiten (mit nano) und navigieren auf einer bash Kommandozeile.
-
-Zielgruppe
-------------
-Kinder die Lesen und Schreiben können und mit einer Computertastatur vertraut sind.
-Eltern oder Lehrerinnen, die sich mit Linux etwas auskennen und Kindern dieses Betriebssystem näher bringen wollen.
 
 für Entwicklerinnen
 -------------
