@@ -28,3 +28,18 @@ else
 	echo "Level $1 ist leider kaputt... Konnte die start-datei nicht finden."
 	exit 1
 fi
+
+if [ -f "$lernbashpath/level/$currentLevel/check.sh" ]; then
+	while true; do
+		"$lernbashpath/level/$currentLevel/check.sh"
+		if [ $? -eq 0 ]; then
+			echo "Sehr gut! Beende jetzt das Level mit " > $(cat "$HOME/.lb/tty")
+			echo "fertig" > $(cat "$HOME/.lb/tty")
+			echo -e "\033[?25h" > $(cat "$HOME/.lb/tty")
+			break
+		fi
+		sleep 3
+	done &
+	echo $! > "$HOME/.lb/whilepid"
+fi
+

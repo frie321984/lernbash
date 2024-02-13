@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+
+PROMPT_COMMAND=history > ~/.lb/history.txt
+
 if [ -f ~/.lernbashpath ]; then
     export lernbashpath=$(<$HOME/.lernbashpath)
 else
@@ -40,6 +43,7 @@ if [ ! -d ~/.lb ]; then
     mkdir -p .lb/features
     mkdir -p .lb/fertig
 fi
+echo $$ > .lb/bashpid
 
 if [ -f ~/.lb/features/auto-update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'

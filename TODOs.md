@@ -1,6 +1,7 @@
 ToDos
 --------------
 
+- Wenn schon check-loop läuft, starte sie nicht noch mal!
 - CHANGELOG erstellen
 x Nach dem Login einen Startbildschirm zeigen, der erklärt wie's losgeht.
 x Level mit "fertig" beenden

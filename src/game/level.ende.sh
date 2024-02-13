@@ -23,6 +23,10 @@ if [ -f "$lernbashpath/level/$currentLevel/ende.sh" ]; then
     rm -f $HOME/.fertig
     rm "$HOME/.lb/current-level"
     touch "$HOME/.lb/fertig/$currentLevel"
+    if [ -f "$HOME/.lb/whilepid" ]; then
+        kill $(cat "$HOME/.lb/whilepid")
+        rm "$HOME/.lb/whilepid"
+    fi
     if [ -d "$lernbashpath/level/$nextlvl/" ]; then
         echo
         echo "Das war Level $currentLevel. Weiter geht's mit"
@@ -49,6 +53,10 @@ fi
 
 rm -f $HOME/.fertig
 rm "$HOME/.lb/current-level"
+    if [ -f "$HOME/.lb/whilepid" ]; then
+        kill $(cat "$HOME/.lb/whilepid")
+        rm "$HOME/.lb/whilepid"
+    fi
 touch "$HOME/.lb/fertig/$currentLevel"
 
 if [ -f "$lernbashpath/level/$currentLevel/ende.txt" ]; then
