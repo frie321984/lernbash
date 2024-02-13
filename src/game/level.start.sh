@@ -1,7 +1,6 @@
 #!/bin/bash
 
 clear
-
 currentLevel=$1
 (( nextLevel = currentLevel + 1 ))
 (( prevLevel = currentLevel - 1 ))
@@ -26,6 +25,6 @@ if [ -f "$lernbashpath/level/$currentLevel/start.sh" ]; then
 elif [ -f "$lernbashpath/level/$currentLevel/start.txt" ]; then
     cat "$lernbashpath/level/$currentLevel/start.txt"
 else
-    echo "Level $1 ist leider kaputt... Konnte die start-datei nicht finden."
+	echo "Level $1 ist leider kaputt... Konnte die start-datei nicht finden."
 	exit 1
 fi

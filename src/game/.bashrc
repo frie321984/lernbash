@@ -35,6 +35,12 @@ PATH="$HOME/.local/bin:$PATH"
 
 alias lbu="cd $lernbashpath && git pull; cd ~; . ~/.bashrc"
 
+if [ ! -d ~/.lb ]; then
+    echo 'missing .lb dir'
+    mkdir -p .lb/features
+    mkdir -p .lb/fertig
+fi
+
 if [ -f ~/.lb/features/auto-update ]; then
     echo 'Lernbash AUTO_UPDATE = ON'
     if [ -d ~/lernbash ]; then
@@ -42,12 +48,8 @@ if [ -f ~/.lb/features/auto-update ]; then
     fi
 fi
 
-
-if [ ! -d ~/lernbash ]; then
-    echo 'missing .lb dir'
-    mkdir -p .lb/features
-    mkdir -p .lb/fertig
-fi
+echo "tty" 
+tty > .lb/tty
 
 if [ -f ~/.lb/features/reset-fertig-on-login ]; then
     echo 'Lernbash reset .lb/fertig beim login'
@@ -55,7 +57,6 @@ if [ -f ~/.lb/features/reset-fertig-on-login ]; then
         rm ~/.lb/fertig/*
     fi
 fi
-
 
 # erstelle die startdatei für jedes level basierend auf den ordnern in level
 for dir in $lernbashpath/level/[0-9]*/; do

@@ -11,9 +11,12 @@ SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo "scriptpath: $SCRIPTPATH"
 
 echo "$SCRIPTPATH" > "$HOME/.lernbashpath"
-mkdir -p ~/.lb/fertig
-~/.bashrc && mv -i ~/.bashrc ~/.bashrc.original
-ln -sf "$SCRIPTPATH/.bashrc" ~/.bashrc
+mkdir $HOME/.lb
+mkdir -p "$HOME/.lb/fertig"
+if [ -f "$HOME/.bashrc" ]; then
+   mv -i "$HOME/.bashrc" "$HOME/.bashrc.original"
+fi
+ln -sf "$SCRIPTPATH/.bashrc" "$HOME/.bashrc"
 
 # programme die installiert sein sollten
 tree --version
